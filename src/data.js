@@ -82,7 +82,7 @@ const list = [
       name: "Lorem ipsum dolor sit amet consectetur.",
       image: "/Rectangle 16.png",  // ✅ Correct relative path from public folder
       originalPrice: 5000,
-      discountedPrice: 3500,
+      discountedPrice: 2500,
       description: "Lorem ipsum dolor sit amet consectetur. Ultricies enim diam pellentesque blandit aliquet facilisis. Imperdiet sollicitudin felis tempus nibh praesent. Proin cras egestas quis egestas. Tortor posuere vel malesuada adipiscing morbi duis pretium.",
       longDescription: "Lorem ipsum dolor sit amet consectetur. Vitae ornare amet laoreet eget. Cras sagittis volutpat sapien pulvinar. Ipsum blandit ut aliquam arcu. Orci est amet orci semper massa lectus. Commodo dignissim quis aliquam volutpat. Scelerisque in vitae et eu urna. Quam a consectetur ac quis rhoncus. Malesuada faucibus ornare semper sagittis in consequat consectetur elit condimentum. Ac id ut nibh enim neque eu venenatis pharetra tellus.",
       sizes: [24, 26, 28, 30, 32, 34],
@@ -93,7 +93,7 @@ const list = [
       name: "Lorem ipsum dolor sit amet consectetur.",
       image: "/Rectangle 9.png",  // ✅ Correct relative path from public folder
       originalPrice: 5000,
-      discountedPrice: 3500,
+      discountedPrice: 4500,
       description: "Lorem ipsum dolor sit amet consectetur. Ultricies enim diam pellentesque blandit aliquet facilisis. Imperdiet sollicitudin felis tempus nibh praesent. Proin cras egestas quis egestas. Tortor posuere vel malesuada adipiscing morbi duis pretium.",
       longDescription: "Lorem ipsum dolor sit amet consectetur. Vitae ornare amet laoreet eget. Cras sagittis volutpat sapien pulvinar. Ipsum blandit ut aliquam arcu. Orci est amet orci semper massa lectus. Commodo dignissim quis aliquam volutpat. Scelerisque in vitae et eu urna. Quam a consectetur ac quis rhoncus. Malesuada faucibus ornare semper sagittis in consequat consectetur elit condimentum. Ac id ut nibh enim neque eu venenatis pharetra tellus.",
       sizes: [24, 26, 28, 30, 32, 34],
@@ -103,7 +103,7 @@ const list = [
       id: 8,
       name: "Lorem ipsum dolor sit amet consectetur.",
       image: "/Rectangle 8.png",  // ✅ Correct relative path from public folder
-      originalPrice: 5000,
+      originalPrice: 1000,
       discountedPrice: 3500,
       description: "Lorem ipsum dolor sit amet consectetur. Ultricies enim diam pellentesque blandit aliquet facilisis. Imperdiet sollicitudin felis tempus nibh praesent. Proin cras egestas quis egestas. Tortor posuere vel malesuada adipiscing morbi duis pretium.",
       longDescription: "Lorem ipsum dolor sit amet consectetur. Vitae ornare amet laoreet eget. Cras sagittis volutpat sapien pulvinar. Ipsum blandit ut aliquam arcu. Orci est amet orci semper massa lectus. Commodo dignissim quis aliquam volutpat. Scelerisque in vitae et eu urna. Quam a consectetur ac quis rhoncus. Malesuada faucibus ornare semper sagittis in consequat consectetur elit condimentum. Ac id ut nibh enim neque eu venenatis pharetra tellus.",
@@ -125,8 +125,8 @@ const list = [
       id: 10,
       name: "Lorem ipsum dolor sit amet consectetur.",
       image: "/Rectangle 12.png",  // ✅ Correct relative path from public folder
-      originalPrice: 5000,
-      discountedPrice: 3500,
+      originalPrice: 1500,
+      discountedPrice: 1000,
       description: "Lorem ipsum dolor sit amet consectetur. Ultricies enim diam pellentesque blandit aliquet facilisis. Imperdiet sollicitudin felis tempus nibh praesent. Proin cras egestas quis egestas. Tortor posuere vel malesuada adipiscing morbi duis pretium.",
       longDescription: "Lorem ipsum dolor sit amet consectetur. Vitae ornare amet laoreet eget. Cras sagittis volutpat sapien pulvinar. Ipsum blandit ut aliquam arcu. Orci est amet orci semper massa lectus. Commodo dignissim quis aliquam volutpat. Scelerisque in vitae et eu urna. Quam a consectetur ac quis rhoncus. Malesuada faucibus ornare semper sagittis in consequat consectetur elit condimentum. Ac id ut nibh enim neque eu venenatis pharetra tellus.",
       sizes: [24, 26, 28, 30, 32, 34],
