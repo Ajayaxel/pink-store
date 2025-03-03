@@ -51,7 +51,7 @@ const ShopPage = () => {
         <div className="mt-4">
           <h3 className="text-lg font-medium">Categories</h3>
           <ul className="mt-2 space-y-2">
-            {["Clothing and Accessories", "Sarees and Saree Essentials", "Sarees", "Women's Sarees"].map((category) => (
+            {["Clothing and Accessories", "Sarees and Saree Essentials", "Women's Sarees"].map((category) => (
               <li key={category} className="cursor-pointer text-gray-700 hover:underline">
                 {category}
               </li>
@@ -61,7 +61,7 @@ const ShopPage = () => {
 
         {/* Dropdown Filters */}
         {[
-          "Price", "Brand", "Gender", "Discount", "Pattern", "Saree Type", "Fabric", "Occasion", "Color", "Customer Ratings",
+          "Price", "Brand", "Discount", "Pattern", "Fabric", "Occasion", "Color", "Customer Ratings",
         ].map((filter) => (
           <div key={filter} className="mt-4 border-b pb-2">
             <div className="flex justify-between items-center cursor-pointer" onClick={() => toggleFilter(filter)}>
