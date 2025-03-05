@@ -12,10 +12,10 @@ const Header = ({ cart, setIsCartOpen }) => {
     <header className="w-full h-[70px] bg-white px-[20px] md:px-[50px] relative">
       <div className="flex justify-between items-center py-3">
         {/* Left Section - Navigation Links (Desktop) */}
-        <nav className="hidden md:flex space-x-6 text-black text-sm font-medium">
+        <nav className="hidden md:flex space-x-6 text-black  text-sm font-medium">
           <Link to="/shop" className="text-black">SHOP</Link>
-          <Link to="" className="text-black">BESTSELLERS</Link>
-          <Link to="/exclusivecollections" className="text-black">EXCLUSIVE COLLECTIONS</Link>
+          <Link to="/best-seller" className="text-black">BESTSELLERS</Link>
+          <Link to="/exclusive-collection" className="text-black">EXCLUSIVE COLLECTIONS</Link>
         </nav>
 
         {/* Center Section - Logo */}

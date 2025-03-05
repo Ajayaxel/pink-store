@@ -17,6 +17,12 @@ import CartDrawer from "./Components/CartDrawer";
 import list from "./data";
 import LoginPage from "./Components/LoginPage";
 import RegisterLogin from "./Components/RegisterLogin";
+import BestSellerpage from "./Components/BestSellerpage";
+import ExclusiveColletionpage from "./Components/ExclusiveColletionpage";
+import PartyWearsPage from "./Components/PartyWearsPage";
+import SemipartyWearPage from "./Components/SemipartyWearPage";
+
+
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -74,11 +80,17 @@ function App() {
             </>
           }
         />
-        <Route path="/shop-details/:id" element={<ProductDetailsPage products={list} handleClick={handleClick} />} />
+        <Route path="/shop-details/:id" element={<ProductDetailsPage products={list}  handleClick={handleClick} />} />
+        <Route path="/party-wears" element={<PartyWearsPage products={list}/>} />
         <Route path="/shop" element={<ShopePage products={list} />} />
+        <Route path="/best-seller" element={<BestSellerpage products={list} />} />
+        <Route path="/exclusive-collection" element={<ExclusiveColletionpage products={list} />} />
         <Route path="/payment-details/:id" element={<PaymentPage products={list} />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterLogin />} />
+        <Route path="/semi-party-wears" element={<SemipartyWearPage />} />
+
+
       </Routes>
 
       <CartDrawer

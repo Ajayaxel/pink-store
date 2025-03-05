@@ -5,8 +5,10 @@ import FooterSection from "./FotterSection";
 const ProductDetailsPage = ({ products, handleClick }) => {
   const navigate = useNavigate();
   const { id } = useParams();
+
   const productId = parseInt(id, 10);
   const item = products.find((p) => p.id === productId);
+
 
   const sliderRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);

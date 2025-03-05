@@ -5,7 +5,7 @@ import FooterSection from "./FotterSection";
 import { FaTimes, FaChevronDown } from "react-icons/fa";
 import list from "../data";
 
-const ShopPage = () => {
+const ShopPage = ({heading = "Shop"}) => {
   const navigate = useNavigate();
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [isSortOpen, setIsSortOpen] = useState(false);
@@ -87,7 +87,7 @@ const ShopPage = () => {
             <img src="/Filter.png" alt="Filter" className="w-5 h-5" />
             <span className="text-md text-black font-medium">FILTER</span>
           </div>
-          <h1 className="text-2xl md:text-3xl text-black font-semibold">SHOP</h1>
+          <h1 className="text-2xl md:text-3xl text-black font-semibold">{heading}</h1>
 
           {/* Sort Dropdown */}
           <div className="relative">
