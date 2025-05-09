@@ -21,6 +21,7 @@ import BestSellerpage from "./Components/BestSellerpage";
 import ExclusiveColletionpage from "./Components/ExclusiveColletionpage";
 import PartyWearsPage from "./Components/PartyWearsPage";
 import SemipartyWearPage from "./Components/SemipartyWearPage";
+import CoSetsPage from "./Components/CoSetsPage";
 
 
 
@@ -89,6 +90,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterLogin />} />
         <Route path="/semi-party-wears" element={<SemipartyWearPage />} />
+         <Route path="/co-ord-sets" element={<CoSetsPage />} />
 
 
       </Routes>
