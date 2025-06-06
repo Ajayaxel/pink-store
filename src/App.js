@@ -71,6 +71,7 @@ function App() {
         <Route
           path=""
           element={
+            //home page components
             <>
               <Hero />
               <GalleryCards />
